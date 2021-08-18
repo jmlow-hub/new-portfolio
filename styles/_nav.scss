@@ -2,12 +2,14 @@
 
 .sticky {
   display: flex;
+  justify-content: flex-end;
   width: 100%;
   background-color: #C3DFC3;
   position: fixed;
   top: 0;
   z-index: 1;
   box-shadow: $shadow;
+ 
   
   
 }
@@ -21,11 +23,11 @@
   position: fixed;  
 	top: 0;
   z-index: 1;  
-  left: 0;
+  right: 0;
   overflow-x: hidden;
   padding-top: 30px;
   font-family: $heading;
-  transition: 0.5s;
+  transition: 0.7s ease-in-out;
   color: $heading-color;  
   list-style-type: none; 
   background-color: $background; 
@@ -64,7 +66,7 @@
     
 button {
   border: none;
-  margin: 10px 0 10px 10px;
+  margin: 10px 10px 10px 10px;
   padding-bottom: 10px;
   font-size: 2em;
   background-color: transparent;
