@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+.sticky {
+  display: flex;
+  width: 100%;
+  background-color: #C3DFC3;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 200px;
+  width: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 30px;
+  font-family: "Comfortaa", cursive;
+  transition: 0.5s;
+  color: #014C00;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.nav li {
+  padding: 10px;
+  color: #014C00;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.nav li a {
+  text-decoration: none;
+  color: #014C00;
+}
+.nav li a:hover {
+  border-bottom: 2px solid #014C00;
+  cursor: pointer;
+}
+.nav__close {
+  position: absolute;
+  top: 0;
+}
+
+button {
+  border: none;
+  margin: 10px 0 10px 10px;
+  padding-bottom: 10px;
+  font-size: 2em;
+  background-color: transparent;
+  color: #014C00;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.title {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.title h1 {
+  width: 50%;
+  height: auto;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  color: #014C00;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  text-align: center;
+}
+
+.about-me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-me h3 {
+  align-self: flex-start;
+  font-family: "Comfortaa", cursive;
+  color: #014C00;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px;
+  margin-top: 20px;
+}
+.about-me__info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about-me__info img {
+  min-width: 200px;
+  height: auto;
+  margin: 10px 0 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-me__info__text {
+  min-width: 300px;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-me__info__text p {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  color: #014C00;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.about-me__info__text__icons {
+  min-width: 300px;
+  max-width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  margin: 10px 0;
+  font-size: 4em;
+  color: #014C00;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projects h3 {
+  align-self: flex-start;
+  font-family: "Comfortaa", cursive;
+  color: #014C00;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+}
+.projects .projects__info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 15px 0;
+}
+.projects .projects__info .projects__info__container {
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  margin: 0 10px 10px 10px;
+  overflow: hidden;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-front h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 15%;
+  font-family: "Comfortaa", cursive;
+  color: #014C00;
+  text-align: center;
+  text-shadow: 2px 2px 8px #7FB13B;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-front img {
+  border-radius: 5px;
+  max-width: 90%;
+  height: 85%;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(13, 130, 101, 0.3);
+  transform: rotateY(180deg);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-back p {
+  font-family: "Roboto", sans-serif;
+  color: darkslategray;
+  text-align: justify;
+  margin: 0 5px;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-back a:link {
+  text-decoration: none;
+  color: #014C00;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  margin: 0 5px;
+  text-shadow: 2px 2px 8px #7FB13B;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-back a:visited {
+  color: #014C00;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-back a:hover {
+  opacity: 0.5;
+}
+.projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-front, .projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.projects__info__container:hover .projects__info__container__card {
+  transform: rotateY(180deg);
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.contact h3 {
+  font-family: "Comfortaa", cursive;
+  color: #014C00;
+  align-self: flex-start;
+  font-size: 1.5em;
+  padding: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+.contact__methods {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+.contact__methods div {
+  display: flex;
+}
+.contact__methods div p {
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #014C00;
+  font-weight: bold;
+}
+.contact__methods div i {
+  color: #014C00;
+  font-size: 1em;
+  padding: 5px;
+}
+.contact__methods div i:hover {
+  opacity: 0.5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../Images/pexels-stanislav-kondratiev-2908965.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

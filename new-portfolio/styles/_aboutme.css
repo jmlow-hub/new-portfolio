@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap");
+.about-me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-me h3 {
+  align-self: flex-start;
+  font-family: "Comfortaa", cursive;
+  color: #014C00;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px;
+  margin-top: 20px;
+}
+.about-me__info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.about-me__info img {
+  min-width: 200px;
+  height: auto;
+  margin: 10px 0 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-me__info__text {
+  min-width: 300px;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-me__info__text p {
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  color: #014C00;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+.about-me__info__text__icons {
+  min-width: 300px;
+  max-width: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  margin: 10px 0;
+  font-size: 4em;
+  color: #014C00;
+}
