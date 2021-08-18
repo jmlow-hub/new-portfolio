@@ -21,7 +21,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   padding: 15px 0;
 }
 .projects .projects__info .projects__info__container {
