@@ -26,7 +26,7 @@
 .about-me__info img {
   min-width: 200px;
   height: auto;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 10px 0;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -41,7 +41,8 @@
 .about-me__info__text p {
   text-align: justify;
   font-family: "Roboto", sans-serif;
-  color: #014C00;
+  color: darkslategray;
+  font-weight: bold;
   margin: 5px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 5px;

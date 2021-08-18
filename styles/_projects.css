@@ -21,6 +21,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 15px 0;
 }
 .projects .projects__info .projects__info__container {
@@ -36,7 +37,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.9s ease-out;
+  transition: transform 1s ease-out;
   transform-style: preserve-3d;
 }
 .projects .projects__info .projects__info__container .projects__info__container__card .projects__info__container__card-front {

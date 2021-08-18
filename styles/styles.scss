@@ -29,5 +29,15 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 
+  a {
+    font-family: $para;
+    color: $background;
+    font-size: 0.8em;
+  }
+
+  a:hover {
+    opacity: 0.6;
+  }
+
 }
 
