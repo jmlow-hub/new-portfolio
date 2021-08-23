@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  //border: 2px solid;
   
 }
 
@@ -19,25 +20,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-image: url("../Images/pexels-stanislav-kondratiev-2908965.jpg") ;
+  background-color: $background;
+  
  
+
   
 
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  a {
-    font-family: $para;
-    color: $background;
-    font-size: 0.8em;
-  }
-
-  a:hover {
-    opacity: 0.6;
-  }
+ 
 
 }
 

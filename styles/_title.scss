@@ -2,27 +2,103 @@
 
 .title {
   width: 100%;
-  height: 700px;
+  height: 95vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 50px 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: $background;
 
-    h1 {
+    
+
+    &__heading {
       width: 50%;
-      height: auto;
-      font-family: $heading;
-      font-weight: bold;
-      color: $heading-color;
-      font-size: 2em;
-      box-shadow: $shadow;
-      padding: 10px;
-      text-align: center;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
 
-     
+          img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #fffbff;
+            filter: grayscale(0.8) brightness(1.5);
+            
+            }
+        
+          h1 {
+          
+            font-family: $heading;
+            font-weight: bold;
+            color: $heading-color;
+            font-size: 36px;
+            padding: 10px;
+            text-align: center;   
+          }
+
+          &__text {
+            display: flex;
+            flex-direction: column;  
+            
+              p {
+                font-family: $heading;
+                color: $para-color;
+                font-weight: bold;
+                text-align: justify;
+                padding: 20px 0 0 0;
+                font-size: 1.3em;
+              }
+
+              p:first-child {
+                text-align: center;
+              }
       
+         }    
+  
     }
+
+    @keyframes arrow {
+      0% {transform: translate(0, 0);}
+      50% {transform: translate(0, 10px);}
+      100% {transform: translate(0, 0);}
+  
+    }
+
+    &__CTA {
+      width: 50%;
+      height: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;       
+  
+
+      p {
+        font-family: $heading;
+        color: $heading-color;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      i {
+        font-size: 1.5em;
+        color: $heading-color;
+        animation-name: arrow;
+        animation-duration: 1.3s;
+        animation-timing-function: linear;
+        animation-iteration-count: 5;
+      }
+      i:hover {
+        opacity: 0.6;
+        }
+    }
+
+
+  
+
+
+
 }
